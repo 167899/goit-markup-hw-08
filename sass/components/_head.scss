@@ -1,0 +1,37 @@
+.head {
+  border-bottom: 1px solid #ececec;
+
+  @media screen and (max-width: 767px) {
+    padding: 16px 0;
+  }
+}
+.head__conteiner {
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.head__contacts {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  // margin-left: auto;
+}
+
+.head-link {
+  display: flex;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  // padding: 32px 0;
+  transition: color var(--duration) var(--cubic-bezier);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
