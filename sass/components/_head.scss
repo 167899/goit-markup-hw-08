@@ -18,7 +18,9 @@
     display: none;
   }
 
-  // margin-left: auto;
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+  }
 }
 
 .head-link {
@@ -27,7 +29,6 @@
   text-decoration: none;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  // padding: 32px 0;
   transition: color var(--duration) var(--cubic-bezier);
 
   &:hover,

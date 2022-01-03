@@ -1,7 +1,10 @@
 .portfolio__filter {
   margin-bottom: 40px;
   margin-top: -15px;
-  // margin-bottom: 50px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio__card {
