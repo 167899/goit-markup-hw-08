@@ -8,5 +8,7 @@
 }
 
 .portfolio__card {
-  margin: -15px;
+  @media screen and (min-width: 768px) {
+    margin: -15px;
+  }
 }
